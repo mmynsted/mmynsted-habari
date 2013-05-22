@@ -90,4 +90,4 @@ Growing Liberty can be contacted via the [contact](https://growingliberty.com/co
 Support
 -------
 
-Please log tickets and issues at our [Projects site](https://github.com/mmynsted/mmynsted-habari "mmynsted-habari GitHub site).
+Please log tickets and issues at our [Projects site](https://github.com/mmynsted/mmynsted-habari "mmynsted-habari GitHub site").
