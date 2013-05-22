@@ -34,7 +34,7 @@ Basic use
            admin_pass           => 'vagrant',
         }
    Note: The ``db_template_head`` must match the database used for Habari.  Above ``mysql`` was used so 
-   ``db_template_head`` was set to ``$habari::mysql::template_head``.  *At the time of this writing **mysql** is 
+   ``db_template_head`` was set to ``$habari::mysql::template_head``.  *At the time of this writing mysql is 
    the only choice*.
    
 
