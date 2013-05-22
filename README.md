@@ -56,9 +56,6 @@ Growing Liberty can be contacted via the [contact](https://growingliberty.com/co
 
 [GrowingLiberty.com](http://growingliberty.com "growingliberty.com")
 
-This module includes files that may fall under the Habari License.
-Please see the Habari license [here](http://habariproject.org/en/license "Habari License").  
-
 Support
 -------
 
