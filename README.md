@@ -8,8 +8,8 @@ Basic use
 ---------
 
 0. Ensure a web server with php and other dependencies are installed as required by Habari.
-   A working example can be found [here](#).  *Perhaps a future enhancement would be to automatically 
-   install a web server.*
+   A working example can be found [here](https://github.com/mmynsted/vagrant-centos-php).  
+   *Perhaps a future enhancement would be to automatically install a web server.*
    Note: When using apache the ``.htaccess`` file must be writable by the Habari installer or one must 
    manually update as per on-screen instructions when using Habari the first time.  A temporary 
    *fix* has been applied to ensure that an ``.htaccess`` file with all read and write permissions, ``666``, 
