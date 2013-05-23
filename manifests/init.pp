@@ -48,7 +48,14 @@ class habari (
      src_target => '/tmp',
      target => $install_path,
    }
-   
+  
+   #A fix for Habari running under apache to permit
+   #Habari to update the .htaccess file
+   file {"${habari_root}/.htaccess":
+      ensure => present,
+      mode   => 666,
+   }
+ 
    #Create directory to store user files, like silo images.
    #and is readable for testing.
    file {"${habari_root}/user/files":
@@ -69,6 +76,5 @@ class habari (
    }
 
    #Make sure that puppet installs habari in order
-   Package['unzip'] -> Archive["habari-${version}"] -> File["${habari_root}/user/files"] -> File["${habari_root}/user/cache"] -> File["${habari_root}/config.php"]
-   #Package['unzip'] -> Archive["habari-${version}"] -> File["${habari_root}/user/files"] -> File["${habari_root}/user/cache"]
+   Package['unzip'] -> Archive["habari-${version}"] -> File["${habari_root}/.htaccess"] -> File["${habari_root}/user/files"] -> File["${habari_root}/user/cache"] -> File["${habari_root}/config.php"]
 }
