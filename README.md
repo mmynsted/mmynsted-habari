@@ -64,7 +64,7 @@ Notes
 
 This module was designed specifically to install Habari in a CentOS based virtual machine.
 
-Contributers
+Contributors
 ------------
 
 * The creators of and contributers to Habari
